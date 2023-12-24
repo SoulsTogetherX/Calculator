@@ -1,0 +1,30 @@
+
+.container {
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.display {
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.keypad_top_buttons {
+    width: fit-content;
+    display: block;
+}
+
+.keypad_grid {
+    display: grid;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.keypad_numbers_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: fit-content;
+}
